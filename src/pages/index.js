@@ -1,8 +1,14 @@
-import React from "react"
+import React from 'react'
+import { Link } from 'gatsby'
+import Dock from '../components/menu'
+import Footer from '../components/footer'
 
-export default function Home() {
-  return <div>
-    <h1>Swetank Soni</h1> 
-    <h2>Devops Engineer</h2>
-  </div>
+const Index = () => {
+  return(
+    <div>
+      <Dock />
+      <Footer />
+    </div>
+)
 }
+export default Index
