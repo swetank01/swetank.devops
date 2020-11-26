@@ -1,13 +1,10 @@
 import React from 'react'
-import Dock from '../components/menu'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
 const Index = () => {
   return(
-    <div>
-      <Dock/>
+      <Layout>
       <h1>Swetank.Dev</h1>
-      <Footer/>
-    </div>
-  )    
+      </Layout>  
+      )    
 }
 export default Index
