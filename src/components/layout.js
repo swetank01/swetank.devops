@@ -1,11 +1,11 @@
 import React from 'react'
-import Dock from '../components/menu'
 import Footer from '../components/footer'
+import Landing from '../components/landing'
 const Layout = (props) =>{
     return(
         <div>
-        <Dock/>
         {props.children}
+        <Landing/>
         <Footer/>
         </div>
     )
