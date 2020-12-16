@@ -1,8 +1,12 @@
 import React from 'react'
+import Socials from './social-links.js'
+import Copyright from './copyright.js'
+
 const Footer = () => {
     return(
         <footer>
-            All Right Reserved  &#169; Farnodes.com
+            <Copyright></Copyright>
+            <Socials></Socials>
         </footer>
     )
 }

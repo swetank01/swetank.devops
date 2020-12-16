@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 const Index = () => {
   return(
       <Layout>
-      <h1>Swetank.Dev</h1>
+      <h1>Swetank.Devops</h1>
       </Layout>  
       )    
 }
